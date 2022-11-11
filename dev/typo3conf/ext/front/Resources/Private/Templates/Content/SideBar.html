@@ -1,0 +1,47 @@
+<html data-namespace-typo3-fluid="true" 
+    xmlns:f="http://typo3.org/ns/TYPO3Fluid/Fluid/ViewHelpers"
+    xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+    xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers" 
+    xmlns:project="EW72\Project\ViewHelpers">
+
+<f:layout name="Default" />
+<f:section name="Configuration">
+    <flux:form id="SideBar" label="SideBar" description="SideBar">
+        <flux:field.input name="title" label="Header" />
+        <flux:field.inline.fal name="image1Sidebar" required="1" maxItems="1" minItems="1" collapseAll="1"/>
+        <flux:field.text name="descs" label="Text"/>
+        <flux:field.inline.fal name="image2Sidebar" required="1" maxItems="1" minItems="1" collapseAll="1"/>
+    </flux:form>
+</f:section>
+
+<f:section name="Preview">
+    <h1>Content Element</h1>
+    title : {title} <br>
+    image title {image1Sidebar}<br>
+    description : {descs}<br>
+</f:section>
+
+<f:section name="Main">
+    <div class="row">
+        <div class="col-md-3">
+    <div class="navbar">
+        <f:cObject typoscriptObjectPath="lib.header_menu" />
+    </div>
+    </div>
+    <div class="col-md-9">
+        <div class="title_sidebar">
+        {title}
+        </div>
+        <f:for each="{v:content.resources.fal(field: 'image1Sidebar')}" as="image">
+            <f:image treatIdAsReference="1" src="{image.id}" title="{image.title}" alt="{image.alternative}"/><br/>
+        </f:for>
+        <div class="head_desc">
+            {descs}
+        </div>
+        <f:for each="{v:content.resources.fal(field: 'image2Sidebar')}" as="image2">
+            <f:image treatIdAsReference="2" src="{image2.id}" title="{image2.title}" alt="{image2.alternative}"/><br/>
+        </f:for>
+    </div>
+    </div>
+</f:section>
+</html>

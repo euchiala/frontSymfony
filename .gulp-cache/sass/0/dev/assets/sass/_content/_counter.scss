@@ -1,0 +1,79 @@
+@media (min-width: 64em) {
+    .counter-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 28px;
+        justify-content: center;
+        margin-top: 2%;
+
+        > .counter-container {
+            position: relative;
+            width: 213px;
+            height: 213px;
+            background: #0077b6;
+            padding: 2px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+
+            > .frame-layout-0 {
+                >.counter {
+                    padding: 8px;
+                    text-align: center;
+                    font-family: $BundesSansWeb;
+                    color: white;
+                    >.counter-description {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-size: 15px;
+                        line-height: auto;
+                }
+                }
+            }
+        }
+    }
+}
+
+  @media (max-width: 63.9375em) {
+    .counter-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 28px;
+        justify-content: center;
+        margin-top: 2%;
+        flex-direction: column;
+        align-items: center;
+        > .counter-container {
+            width: 350px;
+            height: 350px;
+            background: #0077b6;
+            padding: 2px;
+            display: flex;
+            justify-content: center;
+
+            > .frame-layout-0 {
+                >.counter {
+                    padding: 8px;
+                    text-align: center;
+                    font-family: $BundesSansWeb;
+                    color: white;
+                    >.counter-title {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-size: 28px;
+                        line-height: auto;
+                    }
+                    >.counter-description {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-size: 35px;
+                        line-height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+.download-container {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+    >.download-rectangle {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 40px;
+        gap: 10px;
+        width: 482px;
+        height: 54px;
+        left: 357.5px;
+        top: calc(50% - 54px/2 + 358px);
+        background: #00854A;
+        border-radius: 50px;
+        > .download-file-name{
+                width: 372px;
+                height: 24px;
+                font-family: $BundesSansWeb;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: $white-color;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+        > .download-file-name:hover{
+            width: 372px;
+            height: 24px;
+            font-family: $BundesSansWeb;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: $white-color;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+    }
+}

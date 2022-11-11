@@ -1,0 +1,140 @@
+@media (min-width: 64em) {
+    .stageJetzt-container {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 28px;
+        justify-content: center;
+        margin-top: 3%;
+        align-items: flex-end;
+        position: absolute;
+
+        > .stageJetzt-container {
+            position: relative;
+            width: 456px;
+            height: 82px;
+            background: #DD9C0F;
+            border-radius: 76px 0px 0px 76px;
+            padding: 2px;
+            flex-direction: column;
+            display: flex;
+            justify-content: flex-end;
+
+            > .frame-layout-0 {
+                >.stageJetzt {
+                    width: auto;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: $white-color;
+                    font-family: $BundesSansWeb;
+                    >.stageJetzt-description {
+                        font-family: $BundesSansWeb;
+                        width: auto;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        display: flex;
+                        align-items: center;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .mod-StageJetzt {
+        > .m-StageJetzt-image {
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+    
+            > .m-StageJetzt-text {
+                position: relative;
+                width: 70%;
+                margin-top: -15%;
+                background: #fff;
+                height: 49%;
+                margin-left: 15%;
+                padding: 10px;
+                border-top-right-radius: 434px 334px;
+    
+                > .m-StageJetzt-label {
+                    font-family: $BundesSansWeb;
+                    width: auto;
+                    height: auto;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: flex-start;
+                    text-transform: uppercase;
+                    color: #0077B6;
+                    margin-left: 10rem;
+                }
+                > .m-StageJetzt-header {
+                    font-family: $BundesSansWeb;
+                    width: auto;
+                    height: auto;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 38px;
+                    line-height: 46px;
+                    color: #000000;
+                    margin-left: 10rem;
+                }
+                > .m-StageJetzt-title {
+                    font-family: $BundesSansWeb;
+                    width: 878px;
+                    height: 50px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 38px;
+                    color: #0077B6;
+                    margin-left: 10rem;
+                }
+    
+                > .m-StageJetzt-description-one {
+                    font-family: $BundesSansWeb;
+                    width: 952px;
+                    height: 145px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: $black-color;
+                    margin-left: 10rem;
+                }
+    
+                > .m-StageJetzt-text-two {
+                    font-family: $BundesSansWeb;
+                    width: 952px;
+                    height: 145px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: $black-color;
+                    margin-left: 10rem;
+                }
+                > .m-StageJetzt-text-three {
+                    font-family: $BundesSansWeb;
+                    width: 952px;
+                    height: 145px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: $black-color;
+                    margin-left: 10rem;
+                }
+            }
+        }
+    }
+}

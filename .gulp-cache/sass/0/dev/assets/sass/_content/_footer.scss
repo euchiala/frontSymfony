@@ -1,0 +1,103 @@
+.footer-container{
+  position:relative  ;
+  bottom: 0;
+  width: 100%;
+}
+.footer {
+    text-decoration: underline;
+    background: $blue-dark;
+    color: $white-color;
+    padding: 1.125rem;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: $BundesSansWeb;
+
+  }
+  
+  @media (min-width: 64em) {
+    .footer {
+      padding: 1.125rem;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .footer .container {
+      color: $white-color;
+      display: flex;
+      justify-content: center;
+      font-family: $BundesSansWeb;
+
+    }
+  }
+  
+  @media (max-width: 63.9375em) {
+    .footer .footer-pages    {
+        padding-bottom: 1rem;
+        color: $white-color;
+        font-size: 0.8125rem;
+        text-align: center;
+        font-family: $BundesSansWeb;
+
+    }
+  }
+  .footer-pages    {
+    padding-bottom: 1rem;
+}
+  .footer .footer-pages  a:not(:last-child) {
+    font-family: $BundesSansWeb;
+    color: $white-color;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+
+  }
+  .footer .footer-pages  a:is(:last-child) {
+    font-family: $BundesSansWeb;
+    color: $white-color;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    
+  }
+  .footer-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 3rem;
+  }
+  .footer-logos-item{
+    display: grid;
+  }
+  .footer-logos-item-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: $BundesSansWeb;
+  }
+   .footer-contact-link-button{
+    display: flex;
+    padding-bottom: 2rem;
+    img {
+        width: 13px;
+
+        height: 25px;
+        margin-left: 26px;
+    }
+
+    .footer-contact-link {
+        font-family: $BundesSansWeb;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        margin-left: 28px;
+        margin-top: -4px;
+
+        a {
+            text-decoration: none;
+            color: #004b76;
+        }
+    }
+}

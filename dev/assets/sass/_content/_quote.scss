@@ -1,0 +1,36 @@
+.quote-view-content{
+    display: flex;    
+    justify-content: space-around;
+    padding: 5rem;
+    >.quote{
+        >div{
+            >.quote{
+                >.quote-image{
+                    img{
+                        width: 586px;
+                        height: 328.59px;
+                    }
+                }
+                >.quote-text-container{
+                    box-sizing: border-box;
+                    width: 586px;
+                    height: auto;
+                    background: #E9EAEC;
+                    border: 1px solid #E9EAEC;
+                    border-radius: 0px 0px 28px 0px;
+                    >.quote-description{
+                        width: 529.72px;
+                        height: 60px;
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        padding: 0.5rem;
+                        color: $black-color;
+                    }
+                }
+            }
+        }
+    }
+}

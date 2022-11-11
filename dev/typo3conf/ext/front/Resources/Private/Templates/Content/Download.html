@@ -1,0 +1,33 @@
+
+<html data-namespace-typo3-fluid="true" 
+    xmlns:f="http://typo3.org/ns/TYPO3Fluid/Fluid/ViewHelpers"
+    xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+    xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers" 
+    xmlns:project="EW72\Project\ViewHelpers">
+
+<f:layout name="Default" />
+<f:section name="Configuration">
+   
+    <flux:form id="Download" label="Download" description="Download">
+        <flux:field.input name="descreption" label="Text"  />
+        <flux:field.select name="type" label="type" items="h1 , h2, h3" />
+        <flux:field.checkbox name="hideBorderChech" label="Hide Border Checkbox"/>
+
+        <flux:field.inline.fal name="downloadFiles" required="1" minItems="1"  maxItems="70" collapseAll="1" allowedExtensions="pdf,zip" />
+    </flux:form>
+</f:section>
+
+
+<f:section name="Preview">
+    description : {descreption}<br>
+    Type :      <{type}>{type}</{type}>
+</f:section>
+
+<f:section name="Main">
+  <div class="grid-btn {f:if(condition: '{hideBorderChech}', then: 'bordershow')} "  >
+    <f:for each="{v:content.resources.fal(field: 'downloadFiles')}" as="file">
+            <a href="{file.url}" target="_blank" rel="noopener noreferrer" >{file.name} ({file.extension} <f:format.bytes decimals="1">{v:media.size(path: '{file.url}')}</f:format.bytes> )</a>  
+    </f:for>
+</div>
+    <f:format.html><{type}>{type}</{type}></f:format.html>
+</f:section>

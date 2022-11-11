@@ -1,0 +1,231 @@
+.Highlights-container{
+    margin: 5rem 12rem 5rem 12rem;
+    >.Highlight-container{
+        width: 100%;
+        height: auto;
+        background: #0077B6;
+        border-radius: 0px;
+        >div{
+            >.highlight-flex{
+                display: flex;
+                >.highlight-image{
+                    >img{
+                        width: 586px;
+                        height: auto;
+                    }
+                }
+                >.highlight-info{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 7rem;
+                    margin-top: 2rem;
+                    gap: 2rem;
+                    >.highlight-custom-header{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 35px;
+                        gap: 10px;
+                        width: 218px;
+                        height: 33px;
+                        left: 733px;
+                        top: 1392px;
+                        background: #5F316E;
+                        >.highlight-header{
+                            width: 148px;
+                            height: 19px;
+                            font-family: $BundesSansWeb;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 19px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            color: #FFFFFF;
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                        }
+                    }
+                    >.highlight-title{
+                        width: 554px;
+                        height: 38px;
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: #FFFFFF;
+                    }
+                    >.highlight-description{
+                        width: 554px;
+                        height: auto;
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 28px;
+                        color: #FFFFFF;
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+                    }
+                    >.highlight-custom-button{
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 15px 40px;
+                        gap: 10px;
+                        width: 229px;
+                        height: 54px;
+                        border: 2px solid #FFFFFF;
+                        border-radius: 50px;
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+                        >a{
+                            >.highlight-button{
+                                width: 149px;
+                                height: 24px;
+                                font-family: $BundesSansWeb;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 24px;
+                                display: flex;
+                                align-items: center;
+                                color: #FFFFFF;
+                                flex: none;
+                                order: 0;
+                                flex-grow: 0;
+                            }
+                        }
+                    }  
+                }
+            }
+           
+        }
+    }
+}
+
+  
+  @media (max-width: 63.9375em) {
+    .Highlights-container{
+        margin: 12rem;
+        >.Highlight-container{
+            width: 100%;
+            height: auto;
+            background: #0077B6;
+            border-radius: 0px;
+            >div{
+                .highlight-flex    {
+                    display: flex;
+                    flex-direction: column;
+                    >.highlight-image{
+                        >img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    >.highlight-info{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 2rem;
+                        margin-top: 2rem;
+                        gap: 2rem;
+                        >.highlight-custom-header{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 35px;
+                            gap: 10px;
+                            width: 218px;
+                            height: 33px;
+                            left: 733px;
+                            top: 1392px;
+                            background: #5F316E;
+                            >.highlight-header{
+                                width: 148px;
+                                height: 19px;
+                                font-family: $BundesSansWeb;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 25px;
+                                line-height: 26px;
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+                                color: #FFFFFF;
+                                flex: none;
+                                order: 0;
+                                flex-grow: 0;
+                            }
+                        }
+                        >.highlight-title{
+                            width: 554px;
+                            height: 38px;
+                            font-family: $BundesSansWeb;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 32px;
+                            line-height: 38px;
+                            color: #FFFFFF;
+                        }
+                        >.highlight-description{
+                            width: 554px;
+                            height: auto;
+                            font-family: $BundesSansWeb;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 30px;
+                            line-height: 37px;
+                            color: #FFFFFF;
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                        }
+                        >.highlight-custom-button{
+                            box-sizing: border-box;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 15px 40px;
+                            gap: 10px;
+                            width: 229px;
+                            height: 54px;
+                            border: 2px solid #FFFFFF;
+                            border-radius: 50px;
+                            flex: none;
+                            order: 1;
+                            flex-grow: 0;
+                            margin-bottom: 30px;
+                            >a{
+                                >.highlight-button{
+                                    width: 149px;
+                                    height: 24px;
+                                    font-family: $BundesSansWeb;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    display: flex;
+                                    align-items: center;
+                                    color: #FFFFFF;
+                                    flex: none;
+                                    order: 0;
+                                    flex-grow: 0;
+                                }
+                            }
+                        }  
+                    }
+                }
+            }
+        }  
+    } 
+}

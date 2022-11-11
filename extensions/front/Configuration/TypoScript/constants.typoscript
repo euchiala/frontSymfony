@@ -1,0 +1,12 @@
+plugin.tx_front {
+    settings {
+        a = hello
+        uids {
+        }
+    }
+    view {
+        templateRootPath = EXT:front/Resources/Private/Templates/
+        partialRootPath = EXT:front/Resources/Private/Partials/
+        layoutRootPath = EXT:front/Resources/Private/Layouts/
+    }
+}

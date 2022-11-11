@@ -1,0 +1,176 @@
+.dropdown-container{
+  display: flex; 
+  margin: 4rem 0 4rem 0;
+  justify-content: center;
+}
+.dropdown-check-list {
+  display: inline-block;
+  
+}
+
+.dropdown-check-list .region {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: none;
+  width: 8rem;
+  color: $blue-dark;
+  font-family: $BundesSansWeb;
+  
+}
+.dropdown-check-list .tag {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: none;
+  width: 8rem;
+  color: $blue-dark;
+  font-family: $BundesSansWeb;
+}
+.dropdown-check-list .partner {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: none;
+  width: 8rem;
+  color: $blue-dark;
+  font-family: $BundesSansWeb;
+}
+
+.dropdown-check-list .region:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .tag:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .partner:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.dropdown-check-list .region:active:after {
+  right: 8px;
+  top: 21%;
+}
+.dropdown-check-list .tag:active:after {
+  right: 8px;
+  top: 21%;
+}
+.dropdown-check-list .partner:active:after {
+  right: 8px;
+  top: 21%;
+}
+
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-check-list ul.items li {
+  list-style: none;
+  display: inline-block;
+  margin: 12px;
+}
+
+.dropdown-check-list.visible .region {
+  color: #0094ff;
+}
+.dropdown-check-list.visible .tag {
+  color: #0094ff;
+}
+.dropdown-check-list.visible .partner {
+  color: #0094ff;
+}
+
+.dropdown-check-list.visible .items {
+  display: block;
+    width: auto;
+  position: absolute;
+  z-index: 2;
+  padding: 50px 30px 30px;
+  background-color: #004b76;
+}
+.checkbox-label{
+    font-family: $BundesSansWeb;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    text-transform: capitalize;
+    color: $white-color;
+    margin: 0px 20px;
+}
+.dropdown-content-checkbox{
+  width: 24px;
+  height: 24px;
+  appearance: none;
+  border: 0.5px solid rgb(255, 255, 255);
+  font-weight: 700;
+  text-align: center;
+  font-size: 17px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.dropdown-content-checkbox:checked{
+  background: url("/assets/svg/checked.svg") no-repeat 50% 50%;
+  background-color: #004b76;
+}
+.item-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.submit-btn{
+    border: none;
+    text-decoration: none;
+    max-width: 600px;
+    min-width: 80px;
+    width: auto;
+    padding: 10px 30px 11px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color .4s ease-out;
+    text-align: center;
+    background-color: #0077b6;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 1rem;
+}

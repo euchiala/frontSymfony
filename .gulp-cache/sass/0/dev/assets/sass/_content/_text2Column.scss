@@ -1,0 +1,45 @@
+.column-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    >.column-one-container{
+        >div{
+            >.double-column-title{
+                width: 303.95px;
+                height: 38px;
+                font-family: $BundesSansWeb;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 38px;
+                color: #00854A;
+            }
+        }
+    }
+    >.column-two-container{
+        >div{
+            >.double-column-text-container{
+                >.double-column-text{
+                    width: 706px;
+                    height: 220px;
+                    font-family: $BundesSansWeb;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #000000;
+                }
+                >.double-column-textTwo{
+                    width: 706px;
+                    height: 275px;
+                    font-family: $BundesSansWeb;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

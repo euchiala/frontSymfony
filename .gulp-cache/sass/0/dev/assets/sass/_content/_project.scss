@@ -1,0 +1,98 @@
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    >.project-layout{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        >.project-img{
+            >img{
+                box-sizing: border-box;
+                width: 342px;
+                height: 236px;
+                left: 122px;
+                top: 2244px;
+                border-radius: 0px;
+            }
+        }
+        >.project-tags{
+            display: flex;
+            justify-content: space-around;
+            >.project-tag{
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 5px 15px;
+                width: auto;
+                height: 23.94px;
+                border: 1px solid $black-color;
+                border-radius: 100px;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                >a{
+                    height: 18px;
+                    font-family: $BundesSansWeb;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: $black-color;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+            }
+        }
+        >.project-title{
+            width: 341px;
+            height: 60px;
+            font-family: $BundesSansWeb;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            color: $black-color;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+        >.project-description{
+            width: 341px;
+            height: 112px;
+            font-family: $BundesSansWeb;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: $black-color;
+        }
+        > .project-link {
+            display: flex;
+            padding-bottom: 1rem;
+            >.project-link-image{
+                >img {
+                    width: 13px;
+                    height: 25px;
+                }
+            }
+            > .project-link-text {
+                font-family: $BundesSansWeb;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 24px;
+                margin-left: 28px;
+                >a {
+                    text-decoration: none;
+                    color: #004b76;
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+            }
+        }
+    }
+}
+    

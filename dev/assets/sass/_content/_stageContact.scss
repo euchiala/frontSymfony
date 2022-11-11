@@ -1,0 +1,67 @@
+.mod-stage-contact {
+    > .m-image {
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        > .m-text {
+            position: relative;
+            width: 66%;
+            margin-top: -7%;
+            background: white;
+            height: 49%;
+            margin-left: 18%;
+
+            padding: 10px;
+            border-top-right-radius: 325px 260px;
+
+            > .m-title {
+                font-family: $BundesSansWeb;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 46px;
+                display: flex;
+                align-items: center;
+                color: #000000;
+                padding: 27px;
+            }
+        }
+    }
+}
+@media (max-width: 63.9375em) {
+    .mod-stage-contact {
+        > .m-image {
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+    
+            > .m-text {
+                position: relative;
+                width: 90%;
+                margin-top: -7%;
+                background: #fff;
+                height: auto;
+                margin-left: 60px;
+                padding: 10px;
+                border-top-right-radius: 325px 260px;
+    
+                > .m-title {
+                    font-family: $BundesSansWeb;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 26px;
+                    line-height: 46px;
+                    display: flex;
+                    align-items: center;
+                    color: #004b76;
+                    padding: 27px;
+                }
+            }
+        }
+    }
+}

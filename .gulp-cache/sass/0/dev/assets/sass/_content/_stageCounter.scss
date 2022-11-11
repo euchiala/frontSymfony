@@ -1,0 +1,268 @@
+@media (min-width: 64em) {
+    .stageCounter-container {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 28px;
+        justify-content: center;
+        margin-top: 2%;
+        align-items: flex-end;
+        position: absolute;
+
+        > .stageCounter-container {
+            position: relative;
+            width: 213px;
+            height: 213px;
+            background: #00854A;
+            padding: 2px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+
+            > .frame-layout-0 {
+                >.stageCounter {
+                    padding: 8px;
+                    text-align: center;
+                    font-family: $BundesSansWeb;
+                    color: white;
+                    >.stageCounter-description {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-size: 15px;
+                        line-height: auto;
+                }
+                }
+            }
+        }
+    }
+    .mod-StageCounter {
+        > .m-StageCounter-image {
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+    
+            > .m-StageCounter-text {
+                position: relative;
+                width: 70%;
+                margin-top: -15%;
+                background: #fff;
+                height: 49%;
+                margin-left: 15%;
+                padding: 10px;
+                border-top-right-radius: 434px 334px;
+    
+                > .m-StageCounter-title {
+                    font-family: $BundesSansWeb;
+                    width: 94px;
+                    height: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: #00854A;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin-left: 10rem;
+                }
+    
+                > .m-StageCounter-description-one {
+                    font-family: $BundesSansWeb;
+                    width: 856px;
+                    height: 92px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 38px;
+                    line-height: 46px;
+                    color: #00854A;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    margin-left: 10rem;
+                }
+    
+                > .m-StageCounter-text-two {
+                    font-family: $BundesSansWeb;
+                    width: 1070px;
+                    height: 224px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #00854A;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    margin-left: 10rem;
+                }
+                > .m-StageCounter-link-stage {
+                    display: flex;
+    
+                    img {
+                        width: 13px;
+    
+                        height: 25px;
+                        margin-left: 26px;
+                    }
+    
+                    > .m-StageCounter-link {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 17px;
+                        line-height: 24px;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 28px;
+                        margin-top: -4px;
+    
+                        a {
+                            text-decoration: none;
+                            color: #004b76;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 63.9375em) {
+        .mod-StageCounter {
+            > .m-StageCounter-image {
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+        
+                > .m-StageCounter-text {
+                    position: relative;
+                    width: 90%;
+                    margin-top: -15%;
+                    background: #fff;
+                    height: auto;
+                    margin-left: 60px;
+                    padding: 10px;
+                    border-top-right-radius: 325px 260px;
+        
+                    > .m-StageCounter-title {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 26px;
+                        line-height: 46px;
+                        display: flex;
+                        align-items: center;
+                        color: #004b76;
+                        padding: 27px;
+                    }
+        
+                    > .m-StageCounter-description-one {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 36px;
+                        align-items: center;
+                        color: #004b76;
+                        text-align: justify;
+                        width: 85%;
+                        padding: 27px;
+                        margin-top: -58px;
+                    }
+        
+                    > .m-StageCounter-text-two {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 36px;
+                        align-items: center;
+                        color: #004b76;
+                        text-align: justify;
+                        width: 85%;
+                        padding: 27px;
+                        margin-top: -20px;
+                    }
+                    > .m-StageCounter-link-stage {
+                        display: flex;
+        
+                        img {
+                            width: 13px;
+        
+                            height: 25px;
+                            margin-left: 26px;
+                        }
+        
+                        > .m-StageCounter-link {
+                            font-family: $BundesSansWeb;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 17px;
+                            line-height: 24px;
+                            display: flex;
+                            align-items: center;
+                            margin-left: 28px;
+                            margin-top: -4px;
+        
+                            a {
+                                text-decoration: none;
+                                color: #004b76;
+                                font-size: 30px;
+                                line-height: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+  @media (max-width: 63.9375em) {
+    .stageCounter-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 28px;
+        justify-content: center;
+        margin-top: 2%;
+        flex-direction: column;
+        align-items: center;
+        > .stageCounter-container {
+            width: 350px;
+            height: 350px;
+            background: #00854A;
+            padding: 2px;
+            display: flex;
+            justify-content: center;
+
+            > .frame-layout-0 {
+                >.stageCounter {
+                    padding: 8px;
+                    text-align: center;
+                    font-family: $BundesSansWeb;
+                    color: white;
+                    >.stageCounter-title {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-size: 28px;
+                        line-height: auto;
+                    }
+                    >.stageCounter-description {
+                        font-family: $BundesSansWeb;
+                        font-style: normal;
+                        font-size: 35px;
+                        line-height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}

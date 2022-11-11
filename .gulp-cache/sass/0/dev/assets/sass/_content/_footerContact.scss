@@ -1,0 +1,146 @@
+.footer-contact {
+    background: $grey-light;
+    padding: 2.5rem;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  
+  @media (min-width: 64em) {
+    .footer-contact {
+      padding: 3.125rem;
+      padding-bottom: 0;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .footer-contact .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .footer-contact .col-container {
+      display: grid;
+      grid-template-areas:
+        "col1 col2";
+      justify-items: center;
+      gap: 1rem;
+    }
+  }
+  
+  @media (max-width: 63.9375em) {
+    .footer-contact .footer-contact-title {
+        position: relative;
+        width: 100%;
+        height: auto;
+        color: $black-color;
+        font-family: $BundesSansWeb;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .footer-contact .footer-contact-title {
+        position: relative;
+        width: 100%;
+        height: auto;
+        color: $black-color;
+        font-family: $BundesSansWeb;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+    }
+  }
+  
+
+  .footer-contact .footer-contact-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 64em) {
+    .footer-contact .footer-contact-links {
+      align-items: flex-start;
+    }
+  }
+  
+  .footer-contact .footer-contact-links {
+    color: $black-color;
+    font-size: 0.9375rem;
+    line-height: 2.25;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  @media (min-width: 64em) {
+    .footer-contact .col1 {
+      grid-area: col1;
+    }
+  }
+  
+  @media (max-width: 63.9375em) {
+    .footer-contact .col2 {
+      margin-bottom: 1.875rem;
+    }
+  }
+  
+  @media (min-width: 64em) {
+    .footer-contact .col2 {
+      grid-area: col2;
+    }
+  }
+  .custom-hr{
+    height:2px; 
+    width:100%; 
+    border-width:0; 
+    color:#AAAAAA;
+     background-color:#AAAAAA;
+  }
+  .footer-contact-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2rem;
+    
+  }
+  .footer-contactElement-title{
+    width: 459px;
+    height: 60px;
+    left: 129px;
+    top: 4509px;
+    font-family: $BundesSansWeb;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #000000;
+  }
+  .footer-contact-info-name{
+    font-family: $BundesSansWeb;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; 
+    color: #000000;
+  }
+  .footer-contact-info-others{
+    font-family: $BundesSansWeb;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .footer-contact-img{
+    width: 147px;
+    height: 150px;
+  }
